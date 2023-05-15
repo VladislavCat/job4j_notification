@@ -1,4 +1,5 @@
 create table if not exists orders(
     id serial primary key,
-    description text
+    description text,
+    status_order varchar
 );
